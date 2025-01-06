@@ -1,0 +1,41 @@
+
+- name: lboro
+  logo: /assets/img/Loughborough University.png
+  display_name: Loughborough University
+
+- name: optimus
+  logo: /assets/img/OpTIMUS logo.jpg
+  display_name: OpTIMUS
+
+- name: ou
+  logo: /assets/img/OU_Master_LOGO_BLUE_63mm.png
+  display_name: Open University
+
+- name: see
+  logo: /assets/img/SEE Logo_RGB.png
+  display_name: SEE
+
+- name: undesa
+  logo: /assets/img/UNDESA logo.png
+  display_name: UNDESA
+
+- name: cambridge
+  logo: /assets/img/University-of-Cambridge-Logo.svg
+  display_name: University of Cambridge
+
+- name: oxford
+  logo: /assets/img/University-of-Oxford.svg
+  display_name: University of Oxford
+
+- name: kth
+  logo: /assets/img/Kth_logo.svg_-266x300.png
+  display_name: KTH
+
+- name: ukaid
+  logo: /assets/img/UK Aid.png
+  display_name: UK Aid
+
+- name: iaea
+  logo: /assets/img/IAEA (slogan).png
+  display_name: IAEA
+  
