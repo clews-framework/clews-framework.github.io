@@ -164,10 +164,10 @@ permalink: /
     </div> -->
     <div class="featured-orgs text-center p-2 m-2">
         {% for org in site.data.orgs %}
-          <a href="{% if org.type == 'github' %}https://github.com/{{ org.github }}{% else %}#{% endif %}" 
+          <a href="{{ org.url }}" 
              class="animate-in">
             {% if org.type == 'github' %}
-              {% avatar user=org.github size=80 %}
+              {% avatar user=org.github size=60 %}
             {% else %}
               <img src="{{ org.logo }}" width="auto" max-width = "200" height="60" margin = "10" alt="{{ org.display_name }}">
             {% endif %}

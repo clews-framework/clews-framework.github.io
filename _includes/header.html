@@ -18,12 +18,7 @@
       <div class="text-center">
         <a href="{{ "/" | relative_url}}"><img class="logo py-3" src="{{ "/assets/img/logomark.svg" | relative_url}}" alt="CLEWs"></a>
         <ul class="d-none d-md-block">
-          <li class="text-center d-block d-sm-inline-block px-1 px-md-3"><a href="{{ "/about" | relative_url}}" class="text-white"><span class="nav-emoji">&#x2139;&#xFE0F;</span>About</a></li>
-          <li class="text-center d-block d-sm-inline-block px-1 px-md-3"><a href="{{ "/applications/" | relative_url}}" class="text-white"><span class="nav-emoji">&#x1F3AF;</span>Applications</a></li>
-          <li class="text-center d-block d-sm-inline-block px-1 px-md-3"><a href="https://github.com/government/welcome#readme" class="text-white"><span class="nav-emoji">&#x1F4DA;</span>Learning and Capacity Building </a></li>
-          <li class="text-center d-block d-sm-inline-block px-1 px-md-3"><a href="" class="text-white"><span class="nav-emoji">&#x1F4CA;</span>Datasets</a></li>
-          <li class="text-center d-block d-sm-inline-block px-1 px-md-3"><a href="https://forum.u4ria.org/t/welcome-to-the-u4ria-forum/7 " class="text-white"><span class="nav-emoji">&#x1F465;</span>Community</a></li>
-          <li class="text-center d-block d-sm-inline-block px-1 px-md-3"><a href="{{ "/contact" | relative_url}}" class="text-white"><span class="nav-emoji">&#x1F91D;</span>Get Involved</a></li>
+          {% include subpage_links.html %}
         </ul>
         <!-- 在小屏幕显示 Primer dropdown -->
         <details class="dropdown details-reset details-overlay d-md-none">
@@ -31,12 +26,7 @@
             <span class="text-white text-bold text-center width-full">&#x22EF;</span>
           </summary>
           <ul class="dropdown-menu dropdown-menu-se width-full">
-            <li class="text-center d-block d-sm-inline-block px-1 px-md-3"><a href="{{ "/about" | relative_url}}" class="text-white"><span class="nav-emoji">&#x2139;&#xFE0F;</span>About</a></li>
-            <li class="text-center d-block d-sm-inline-block px-1 px-md-3"><a href="{{ "/applications/" | relative_url}}" class="text-white"><span class="nav-emoji">&#x1F3AF;</span>Applications</a></li>
-            <li class="text-center d-block d-sm-inline-block px-1 px-md-3"><a href="https://github.com/government/welcome#readme" class="text-white"><span class="nav-emoji">&#x1F4DA;</span>Learning and Capacity Building </a></li>
-            <li class="text-center d-block d-sm-inline-block px-1 px-md-3"><a href="" class="text-white"><span class="nav-emoji">&#x1F4CA;</span>Datasets</a></li>
-            <li class="text-center d-block d-sm-inline-block px-1 px-md-3"><a href="https://forum.u4ria.org/t/welcome-to-the-u4ria-forum/7 " class="text-white"><span class="nav-emoji">&#x1F465;</span>Community</a></li>
-            <li class="text-center d-block d-sm-inline-block px-1 px-md-3"><a href="{{ "/contact" | relative_url}}" class="text-white"><span class="nav-emoji">&#x1F91D;</span>Get Involved</a></li>  
+            {% include subpage_links.html %}
           </ul>
         </details>       
       </div>
