@@ -207,3 +207,79 @@ td.does-not-support { color: $red-500; }
     }
   }
 }
+
+// 调整 emoji 大小和对齐
+.nav-emoji {
+  font-size: 1.2em;
+  margin-right: 0.3em;
+  vertical-align: -0.1em;
+}
+// 自定义下拉按钮样式
+.dropdown {
+  summary.btn {
+    background: transparent;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    
+    &:hover, &:focus {
+      background: transparent;
+      opacity: 0.8;
+    }
+    
+    &::before {
+      display: none;  // 移除默认的三角形
+    }
+    
+    span {
+      display: inline-block;
+      text-align: center;
+    }
+  }
+
+  // 下拉菜单样式
+  .dropdown-menu {
+    background: var(--color-canvas-overlay);
+    border-color: var(--color-border-default);
+    
+    li {
+      a {
+        display: block;
+        padding: 8px 16px;
+        color: var(--color-fg-default);
+        text-decoration: none;
+        
+        &:hover {
+          color: var(--color-accent-fg);
+          background: var(--color-neutral-subtle);
+        }
+      }
+    }
+  }
+}
+
+// 可以调整三个点的大小和位置
+.f3 {
+  font-size: 24px;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.social-icon {
+  font-size: 24px;  // 匹配 Octicons 的高度
+  height: 24px;
+  width: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  
+  // 透明度和悬停效果
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+  
+  &:hover {
+    opacity: 1;
+  }
+}
