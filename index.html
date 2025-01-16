@@ -8,15 +8,7 @@ permalink: /
 
 <div class="container-lg p-responsive py-4 py-lg-6 my-xl-4 text-center">
     <h1 class="alt-h1 mb-2 text-white">The Climate, Land, Energy and Water systems&nbsp;(CLEWs)</h1>
-    <p class="f2-light text-white">
-        <p class="text-white f-5 light">Explore CLEWs on:</p>
-        {% for platform in site.data.social_media %}
-        <!-- {{ platform.name }} -->
-        <a href="{{ platform.url }}" class="px-2">
-            <i class="{{ platform.icon }} text-white" style="font-size: 32px"></i>
-        </a>
-        {% endfor %}
-    </p>
+
   </div>
 </div><!-- ends .full-width that started in header.html -->
 
@@ -111,44 +103,53 @@ permalink: /
 <section class="bg-gray-light">
   <div class="container-lg p-responsive py-5 py-md-6 ">
 
-    <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="more-than-just-code">Title</h2>
-    <p class="alt-lead text-gray text-center col-md-10 mx-auto">The Climate, Land, Energy and Water systems (CLEWs) framework represents an integrated approach to resource management that recognises the interconnected nature of land use, climate change, and energy choices. Gaining prominence since the early 2010s, CLEWs offers a holistic method for analysing complex resource interactions, particularly in the context of Sustainable Development Goals. International organizations like UNDESA and IAEA are promoting CLEWs through capacity building in the global south, and the framework is increasingly being incorporated into higher education curricula. While CLEWs can be applied using various modelling tools such as OSeMOSYS and LEAP, challenges remain in tool accessibility and building technical capacity, with both becoming key areas of development in recent years.</a> and Jupyter Notebooks.</p>
-
+    <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="more-than-just-code">Growing of CLEWs</h2>
+    {%include intro_text.html%}
     <div class="my-4 my-lg-6 clearfix gutter-spacious">
       <div class="col-md-4 float-left animate-out mb-4">
-        <h3 class="alt-h3 mb-3">Pic 1</h3>
-        <p><a href="https://github.com/showcases/government" target="_blank">
-          <img src="assets/img/open-source.png" class="img-border" alt="Picture 1"/></a>
+        <h3 class="alt-h3 mb-3">EMP-LAC Brazil 2024</h3>
+        <p><a href="" target="_blank">
+          <img src="assets/img/EMPLACBrazil2024/IMG_5740.jpg" class="img-border" alt="Picture 1"/></a>
         </p>
-        <small>Example usage/news pic</small>
+        <small>Short brief to the event</small>
       </div>
       <div class="col-md-4 float-left animate-out mb-4">
-        <h3 class="alt-h3 mb-3">Pic 2</h3>
+        <h3 class="alt-h3 mb-3">EMP-A Namibia 2023</h3>
         <p><a href="https://github.com/showcases/open-data" target="_blank">
-          <img src="assets/img/open-data.png" class="img-border" alt="Picture 2"/></a>
+          <img src="assets/img/EMPA2023Namibia/IMG_2532.jpg" class="img-border" alt="Picture 2"/></a>
         </p>
-        <small>Example usage/news pic</small>
+        <small>Short brief to the event</small>
       </div>
       <div class="col-md-4 float-left animate-out mb-4">
-        <h3 class="alt-h3 mb-3">Pic 3</h3>
-        <p><a href="https://github.com/showcases/policies" target="_blank">
-          <img src="assets/img/open-gov.png" class="img-border" alt="Project Open Data"/></a>
+        <h3 class="alt-h3 mb-3">EPIC AFRICA 2022</h3>
+        <p><a href="https://www.linkedin.com/posts/epicafrica22_summerschool-clews-wef-activity-7218570631544532992-g1As" target="_blank">
+          <img src="assets/img/EPICAfrica22/epicAfrica22.png" class="img-border" alt=""/>EPIC AFRICA</a>
         </p>
-        <small></small>
+        <small>The EPIC Africa SummerSchool on CLEWs-Based modeling concluded on July 12th, marking a successful two weeks of intensive learning and collaboration on building long-term water-energy-food (WEF) security in Africa.</small>
       </div>
     </div>
 
     <p class="text-center">
-      <a href="https://github.com/showcases/policies" class="btn btn-outline">See more showcases &rarr;</a>
+      <a href="/applications/" class="btn btn-outline">See more showcases &rarr;</a>
     </p>
 
   </div>
 </section>
 
+<div class="container mt-5">
+  <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="more-than-just-code">Latest News from LinkedIn</h2>
+  <div class="primer-box" style="width: 80%; margin: 0 auto; text-align: center;">
+      <div class="embed-responsive embed-responsive-16by9">
+          <!-- <iframe class="embed-responsive-item" src="https://widgets.sociablekit.com/linkedin-page-posts/iframe/25511315" height="400" allowfullscreen="" title="Embedded post"></iframe> -->
+          <iframe src='https://widgets.sociablekit.com/linkedin-page-posts/iframe/25511315' frameborder='0' width='100%' height='400'></iframe>          
+      </div>
+  </div>
+</div>
+
 <section class="">
-  <div class="container-lg p-responsive py-5 py-md-6 ">
-    <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="join-the-revolution">Get Involved</h2>
-    <p class="alt-lead text-gray text-center col-md-10 mx-auto">Join the CLEWS community</a>.</p>
+  <div class="container-lg p-responsive py-5 py-md-6">
+    <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="join-the-revolution">The CLEWS community</h2>
+    <!-- <p class="alt-lead text-gray text-center col-md-10 mx-auto">The CLEWS community</a>.</p> -->
   </div>
   <div style="overflow: hidden;">
     {% assign count = 0 %}
@@ -167,9 +168,9 @@ permalink: /
           <a href="{{ org.url }}" 
              class="animate-in">
             {% if org.type == 'github' %}
-              {% avatar user=org.github size=60 %}
+              {% avatar user=org.github size=80 %}
             {% else %}
-              <img src="{{ org.logo }}" width="auto" max-width = "200" height="60" margin = "10" alt="{{ org.display_name }}">
+              <img src="{{ org.logo }}" width="auto" max-width = "160" height="{{org.height}}" margin = "10" alt="{{ org.display_name }}">
             {% endif %}
           </a>
         {% endfor %}
@@ -177,7 +178,7 @@ permalink: /
   </div>
 </section>
 
-<section id="get-started" class="mini-section mt-6">
+<!-- <section id="get-started" class="mini-section mt-6">
   <div class="container-lg p-responsive">
     <h2 class="alt-h2 text-center mb-3 mt-lg-6">Get started today</h2>
     <p class="alt-lead text-gray text-center col-md-10 mx-auto"> <a href="mailto:">Contact us</a> to learn more about CLEWS</p>
@@ -188,18 +189,18 @@ permalink: /
         <p class="text-gray"><a href="https://github.com/signup/free" target="_blank">Sign up</a> for an individual GitHub account for free.</p>
         <p class="text-gray">If you have a personal GitHub account, simply <a href="link holder">do somthing</a> here</p>
       </div>
-      <!-- <div class="mb-4 col-md-6 float-left">
+    <div class="mb-4 col-md-6 float-left">
         <h3 class="alt-h3 mb-2">Create an organization</h3>
         <p class="text-gray">An organization is your official presence on GitHub. <a href="https://github.com/organizations/new">Create a free organization</a> after you log in. Open source projects stay free.</p>
         <p class="text-gray">Prefer to host your own GitHub instance? <a href="mailto:government@github.com">Contact us</a> or <a href="https://enterprise.github.com">request a free trial</a> to get started.
-      </div> -->
+      </div> 
     </div>
     <div class="mb-md-6 clearfix gutter-spacious">
-      <!-- <div class="mb-4 col-md-6 float-left">
+      <div class="mb-4 col-md-6 float-left">
         <h3 class="alt-h3 mb-2">Join the Peer Group</h3>
         <p class="text-gray">Join the <a href="https://government-community.githubapp.com/government">semi-private group</a> of government employees using GitHub to share best practices for software collaboration.</p>
         <p class="text-gray">You will have access once the government email associated with your account is verified.
-      </div> -->
+      </div>
       <div class="mb-4 col-md-6 float-left">
         <h3 class="alt-h3 mb-2">Learn More</h3>
         <p class="text-gray">Browse training resources at <a href="CLEWS_LINK">Somewhere</a>.</p>
@@ -207,16 +208,27 @@ permalink: /
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 
 <section id="contact-a-human" class="bg-gray-light">
   <div class="container-lg p-responsive py-5 py-md-6 text-center">
     <span class="text-center">
-      {% octicon person height:42 class:"d-block mx-auto mb-4 text-center fill-gray" aria-label:person %}
+      {% octicon people height:42 class:"d-block mx-auto mb-4 text-center fill-gray" aria-label:people %}
     </span>
-    <h3 class="alt-h2 mb-4">Talk to a human</h3>
-    <p>Email <a href="mailto:">xxx@xxx.com</a> to talk to CLEWS team.</p>
+    <h3 class="alt-h2 mb-4">Explore CLEWs on</h3>
+    <p class="f2-light text-white">
+      {% for platform in site.data.social_media %}
+      <!-- {{ platform.name }} -->
+      <a href="{{ platform.url }}" class="px-2" style="text-decoration: none !important;">
+          <i class="{{ platform.icon }} logo logo-hover py-3" style="font-size: 32px"></i>
+      </a>
+      {% endfor %}
+    </p>
     <p><a href="">Post a question</a> in the community to get feedback.</p>
   </div>
 </section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

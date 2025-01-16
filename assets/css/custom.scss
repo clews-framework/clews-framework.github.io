@@ -6,28 +6,38 @@ body {
 //
 // HEADER
 //
+.assets {
+  background-image: url('../img/background2.svg');
+  filter: grayscale(50%); /* This will turn the image to grayscale */
+}
 
 .page-header {
   width: 100%;
-  background-color: $blue-500;
+  background-color:  $blue-500;
   -webkit-transition: background-image 0.6s ease-in-out 0s;
   -moz-transition: background-image 0.6s ease-in-out 0s;
   -o-transition: background-image 0.6s ease-in-out 0s;
   transition: background-image 0.6s ease-in-out 0s;
-  background-image: url('../img/olivebranch.png');
+  background-image: url('../img/background2.svg');
+  background-size: 100%; /* Make the background image cover the entire area */
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .logo {
-  max-width: 280px;
+  max-width: 120px;
+}
+ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
 }
 
 .fill-blue { fill: $blue; }
 .fill-green { fill: $green; }
 .fill-gray { fill: $gray; }
 .fill-gray-light { fill: $gray-light; }
-
+.fill-white {fill: $white;}
 .img-border {
   border: 5px solid $white;
   max-width: 100%;
@@ -282,4 +292,14 @@ td.does-not-support { color: $red-500; }
   &:hover {
     opacity: 1;
   }
+}
+
+.logo-hover {
+  transition: all 0.3s ease; /* 添加过渡效果 */
+}
+
+.logo-hover:hover {
+  filter: brightness(0.8); /* 变暗效果 */
+  /* 或者使用以下代码添加阴影效果 */
+  // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
