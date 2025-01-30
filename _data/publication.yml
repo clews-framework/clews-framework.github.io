@@ -6,8 +6,9 @@
   pages: "621–626"
   url: "https://www.nature.com/articles/nclimate1789"
   html: "<p>Howells, M., Hermann, S., Welsch, M., Bazilian, M., Segerström, R., Alfstad, T., Gielen, D., Rogner, H., Fischer, G., van Velthuizen, H., Wiberg, D., Young, C., Roehrl, A., Mueller, A., Steduto, P. and Ramma, I. (2013) 'Integrated analysis of climate change, land-use, energy and water strategies', <i>Nature Climate Change</i>, 3, pp. 621–626. Available at: <a href='https://www.nature.com/articles/nclimate1789'>https://www.nature.com/articles/nclimate1789</a></p>"
+  abstract: "Land, energy and water are our most precious resources, but the manner and extent to which they are exploited contributes to climate change. Meanwhile, the systems that provide these resources are themselves highly vulnerable to changes in climate. Efficient resource management is therefore of great importance, both for mitigation and for adaptation purposes. We postulate that the lack of integration in resource assessments and policy-making leads to inconsistent strategies and inefficient use of resources. We present CLEWs (climate, land-use, energy and water strategies), a new paradigm for resource assessments that we believe can help to remedy some of these shortcomings."
 - title: "Adding value with CLEWS – Modelling the energy system and its interdependencies for Mauritius"
-  authors: "Welsch et al."
+  authors: "Welsch and Pelegri, F."
   year: 2014
   journal: "Applied Energy"
   volume: 113
@@ -15,8 +16,9 @@
   pages: "1434-1445"
   url: "https://zfin.org/ZDB-PUB-151104-4"
   html: "<p>Welch, E. and Pelegri, F. (2014) 'Cortical depth and differential transport of vegetally localized dorsal and germ line determinants in the zebrafish embryo', <i>Bioarchitecture</i>, 5(1-2), pp. 13–26. Available at: <a href='https://zfin.org/ZDB-PUB-151104-4'>https://zfin.org/ZDB-PUB-151104-4</a></p>"
+  abstract: In zebrafish embryos, factors involved in both axis induction and primordial germ cell (PGC) development are localized to the vegetal pole of the egg. However, upon egg activation axis induction factors experience an asymmetric off-center shift whereas PGC factors undergo symmetric animally-directed movement. We examined the spatial relationship between the proposed dorsal genes wnt8a and grip2a and the PGC factor dazl at the vegetal cortex. We find that RNAs for these genes localize to different cortical depths, with the RNA for the PGC factor dazl at a deeper cortical level than those for axis-inducing factors. In addition, and in contrast to the role of microtubules in the long-range transport of dorsal determinants, we find that germ line determinant transport depends on the actin cytoskeleton. Our results support a model in which vegetal cortex differential RNA transport behavior is facilitated by RNA localization along cortical depth and differential coupling to cortical transport.
 - title: "A clustering approach to improve spatial representation in water-energy-food models"
-  authors: "Sridharan, V., Howells, M., Boehlert, B., Groves, D.G., Rogner, H. and Strzepek, K."
+  authors: "Sridharan, V. et al."
   year: 2020
   journal: "Environmental Research Letters"
   volume: 15
@@ -24,6 +26,7 @@
   pages: "1040b1"
   url: "https://iopscience.iop.org/article/10.1088/2515-7620/abaf38/meta"
   html: "<p>Sridharan, V., Howells, M., Boehlert, B., Groves, D.G., Rogner, H. and Strzepek, K. (2020) 'A clustering approach to improve spatial representation in water-energy-food models', <i>Environmental Research Letters</i>, 15(10), p. 1040b1. Available at: <a href='https://iopscience.iop.org/article/10.1088/2515-7620/abaf38/meta'>https://iopscience.iop.org/article/10.1088/2515-7620/abaf38/meta</a></p>"
+  abstract: Despite the excitement around the nexus between land, energy and water resource systems, policies enacted to govern and use these resources are still formulated in isolation, without considering the interdependencies. Using a Ugandan case study, we highlight the impact that one policy change in the energy system will have on other resource systems. We focus on deforestation, long term electricity supply planning, crop production, water consumption, land-use change and climate impacting greenhouse gas (GHG) trajectories. In this study, an open-source integrated modelling framework is used to map the ripple effects of a policy change related to reducing biomass consumption. We find that, despite the reduction in deforestation of woodlands and forests, the GHG emissions in the power sector are expected to increase in between 2040–2050, owing to higher fossil fuel usage. This policy change is also likely to increase the cost of electricity generation, which in turn affects the agricultural land types. There is an unforeseen shift from irrigated to rainfed type land due to higher electricity costs. With this integrated model setup for Uganda, we highlight the need for integrated policy planning that takes into consideration the interlinkages between the resource systems and cross propagation effects.
 - title: "Constraining clouds and convective parameterizations in climate models using observations"
   authors: "Ramos, F., Lutsko, N.J., Cronin, T.W. and Emanuel, K.A."
   year: 2021

@@ -4,6 +4,7 @@ layout: sub-page
 title: CLEWs
 permalink: /applications/
 ---
+
 <div class="container-lg p-responsive py-4 py-md-6 ">
 <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="more-than-just-code">{% octicon paintbrush height:36 %}
 Featured Publications</h2>
