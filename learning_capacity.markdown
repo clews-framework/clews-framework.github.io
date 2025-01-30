@@ -41,7 +41,7 @@ You can find the source code for Jekyll at GitHub:
   <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto" style="text-align: justify;">
    For those with specific needs or unique project requirements, CCG also offers on-demand training tailored to your objectives. This flexible option allows organizations, teams, or individuals to receive customized guidance on applying the CLEWs framework to their specific context. </p>
   <p class="alt-lead text-gray text-center col-md-10 mx-auto">
-    <a href="mailto:ccg@lboro.ac.uk?subject=Inquiry&body=Hello,%20I%20would%20like%20to%20know%20more%20about..." class="btn btn-outline">Contact CCG</a>  
+    <a href="mailto:ccg@lboro.ac.uk?subject=Inquiry%20about%20CLEWs%20Training&body=Hello,%20I%20would%20like%20to%20know%20more%20about..." class="btn btn-outline">Contact CCG</a>  
   </p>
   <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto" style="text-align: justify;">
     Whether through online learning or immersive workshops, the CLEWs community’s goal is to empower participants with the knowledge and tools to address complex resource challenges holistically. By fostering a growing community of CLEWs practitioners, let’s aim to enhance global capacity for sustainable and integrated systems planning.
