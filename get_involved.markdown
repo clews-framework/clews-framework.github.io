@@ -29,6 +29,7 @@ Become part of our Discourse community!</h2>
     <div class="mb-3 mb-md-5 col-md-6 float-left">
       <h2 class="alt-h3 mb-2">
         <img src="/assets/img/sparkles.svg" height="28" max-width = "160" class="fill: #007bff;" margin = "10" class="fill-blue" alt="">
+        {% octicon sparkles-fill height:28 class:"fill-blue d-inline mr-2" aria-label:sparkles-fill %}
         Stay Updated on Events
       </h2>
       <p class="text-gray">  Be the first to know about upcoming capacity-building workshops, webinars, and networking opportunities. 
