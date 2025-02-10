@@ -10,7 +10,7 @@
       <p class="text-gray">{{ reference.description }}</p>
     </div>
   </div>
-  <a href="{{ reference.url }}"> {{ reference.authors }} ({{ reference.year }}), <i>{{ reference.journal }}</i>, {{ reference.volume }}, p. {{ reference.pages }}.</a>
+  <a href="{{ reference.url }}"> {{ reference.authors }} ({{ reference.year }}), <i>{{ reference.journal }}</i>{% if reference.volume and reference.pages %}, {{ reference.volume }}, p. {{ reference.pages }}{% endif %}.</a>
 
   {%if reference.abstract%}
   <div class="col-md-12 animate-out mb-2">
