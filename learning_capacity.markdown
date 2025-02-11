@@ -43,21 +43,21 @@ You can find the source code for Jekyll at GitHub:
               <div class="col-md-4 float-left animate-out mb-4">
                 <h3 class="alt-h3 mb-3">EMP-LAC Brazil 2024</h3>
                 <p><a href="" target="_blank">
-                  <img src="./assets/img/EMPLACBrazil2024/IMG_5740.jpg" class="img-border" alt="Picture 1"/></a>
+                  <img src="{{ site.baseurl }}/assets/img/EMPLACBrazil2024/IMG_5740.jpg" class="img-border" alt="Picture 1"/></a>
                 </p>
                 <small>Short brief to the event</small>
               </div>
               <div class="col-md-4 float-left animate-out mb-4">
                 <h3 class="alt-h3 mb-3">EMP-A Namibia 2023</h3>
                 <p><a href="https://github.com/showcases/open-data" target="_blank">
-                  <img src="./assets/img/EMPA2023Namibia/IMG_2532.jpg" class="img-border" alt="Picture 2"/></a>
+                  <img src="{{ site.baseurl }}/assets/img/EMPA2023Namibia/IMG_2532.jpg" class="img-border" alt="Picture 2"/></a>
                 </p>
                 <small>Short brief to the event</small>
               </div>
               <div class="col-md-4 float-left animate-out mb-4">
                 <h3 class="alt-h3 mb-3">EPIC AFRICA 2022</h3>
                 <p><a href="https://www.linkedin.com/posts/epicafrica22_summerschool-clews-wef-activity-7218570631544532992-g1As" target="_blank">
-                  <img src="./assets/img/EPICAfrica22/epicAfrica22.png" class="img-border" alt=""/>EPIC AFRICA</a>
+                  <img src="{{ site.baseurl }}/assets/img/EPICAfrica22/epicAfrica22.png" class="img-border" alt=""/>EPIC AFRICA</a>
                 </p>
                 <small>The EPIC Africa SummerSchool on CLEWs-Based modeling concluded on July 12th, marking a successful two weeks of intensive learning and collaboration on building long-term water-energy-food (WEF) security in Africa.</small>
               </div>
