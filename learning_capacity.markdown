@@ -29,30 +29,58 @@ You can find the source code for Jekyll at GitHub:
   <div class="col-md-12 animate-out mb-2">
       <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto" style="text-align: justify; font-size: 0.875em;">
     For those starting their journey with CLEWs or seeking foundational knowledge, an open-access course is available online. This course comprises 11 comprehensive lectures that introduce the key concepts of the CLEWs approach, its methodologies, and practical applications. The self-paced format ensures accessibility for individuals worldwide, allowing learners to engage with the material at their convenience.
-  </p> 
+    </p> 
+  </div>
   <h3 class="alt-h3 text-float-left mb-3 mt-lg-6" id="more-than-just-code">
     <a href="https://climatecompatiblegrowth.com/energy-modelling-platform/  ">Practical Training under the EMP</a>
   </h3>
   <div class="col-md-12 animate-out mb-2">
       <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto" style="text-align: justify; font-size: 0.875em;">
-    To deepen understanding and provide hands-on experience, the Climate Compatible Growth (CCG) programme co-hosts 3 week-long capacity-building events under the Energy Modelling Platform (EMP). These intensive workshops bring together experts, policymakers, and aspiring modelers to collaborate and learn in a dynamic environment. Over the course of three structured weeks, participants gain practical skills in applying the CLEWs framework to real-world challenges, engage in peer-to-peer learning, and explore the latest innovations in integrated system modeling. 
-  </p>
+      To deepen understanding and provide hands-on experience, the Climate Compatible Growth (CCG) programme co-hosts 3 week-long capacity-building events under the Energy Modelling Platform (EMP). These intensive workshops bring together experts, policymakers, and aspiring modelers to collaborate and learn in a dynamic environment. Over the course of three structured weeks, participants gain practical skills in applying the CLEWs framework to real-world challenges, engage in peer-to-peer learning, and explore the latest innovations in integrated system modeling. 
+    </p> 
+  </div>
+      <div class="my-4 my-lg-6 clearfix gutter-spacious">
+      <div class="col-md-4 float-left animate-out mb-4">
+        <h3 class="alt-h3 mb-3">EMP-LAC Brazil 2024</h3>
+        <p><a href="" target="_blank">
+          <img src="assets/img/EMPLACBrazil2024/IMG_5740.jpg" class="img-border" alt="Picture 1"/></a>
+        </p>
+        <small>Short brief to the event</small>
+      </div>
+      <div class="col-md-4 float-left animate-out mb-4">
+        <h3 class="alt-h3 mb-3">EMP-A Namibia 2023</h3>
+        <p><a href="https://github.com/showcases/open-data" target="_blank">
+          <img src="assets/img/EMPA2023Namibia/IMG_2532.jpg" class="img-border" alt="Picture 2"/></a>
+        </p>
+        <small>Short brief to the event</small>
+      </div>
+      <div class="col-md-4 float-left animate-out mb-4">
+        <h3 class="alt-h3 mb-3">EPIC AFRICA 2022</h3>
+        <p><a href="https://www.linkedin.com/posts/epicafrica22_summerschool-clews-wef-activity-7218570631544532992-g1As" target="_blank">
+          <img src="assets/img/EPICAfrica22/epicAfrica22.png" class="img-border" alt=""/>EPIC AFRICA</a>
+        </p>
+        <small>The EPIC Africa SummerSchool on CLEWs-Based modeling concluded on July 12th, marking a successful two weeks of intensive learning and collaboration on building long-term water-energy-food (WEF) security in Africa.</small>
+      </div>
+    </div>
   <h3 class="alt-h3 text-float-left mb-3 mt-lg-6" id="more-than-just-code">
     <a href="https://climatecompatiblegrowth.com">On-demand Training by CCG</a>
   </h3>
   <div class="col-md-12 animate-out mb-2">
       <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto" style="text-align: justify; font-size: 0.875em;">
-   For those with specific needs or unique project requirements, CCG also offers on-demand training tailored to your objectives. This flexible option allows organizations, teams, or individuals to receive customized guidance on applying the CLEWs framework to their specific context. </p>
+        For those with specific needs or unique project requirements, CCG also offers on-demand training tailored to your objectives. This flexible option allows organizations, teams, or individuals to receive customized guidance on applying the CLEWs framework to their specific context. 
+      </p>
+  </div>
   <div class="col-md-12 animate-out mb-2">
       <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto" style="text-align: justify; font-size: 0.875em;">
-    <a href="mailto:ccg@lboro.ac.uk?subject=Inquiry%20about%20CLEWs%20Training&body=Hello,%20I%20would%20like%20to%20know%20more%20about..." class="btn btn-outline">Contact CCG</a>  
-  </p>
+        <a href="mailto:ccg@lboro.ac.uk?subject=Inquiry%20about%20CLEWs%20Training&body=Hello,%20I%20would%20like%20to%20know%20more%20about..." class="btn btn-outline">Contact CCG</a>  
+      </p>
+  </div>
   <div class="col-md-12 animate-out mb-2">
       <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto" style="text-align: justify; font-size: 0.875em;">
-    Whether through online learning or immersive workshops, the CLEWs community’s goal is to empower participants with the knowledge and tools to address complex resource challenges holistically. By fostering a growing community of CLEWs practitioners, let’s aim to enhance global capacity for sustainable and integrated systems planning.
-  </p>
-  <p class="alt-lead text-gray text-center col-md-10 mx-auto">
-    <a href="/index" class="btn btn-outline">For more information, visit the CLEWs website</a>
-  </p>
+      Whether through online learning or immersive workshops, the CLEWs community’s goal is to empower participants with the knowledge and tools to address complex resource challenges holistically. By fostering a growing community of CLEWs practitioners, let’s aim to enhance global capacity for sustainable and integrated systems planning.
+      </p>
+      <p class="alt-lead text-gray text-center col-md-10 mx-auto">
+        <a href="/index" class="btn btn-outline">For more information, visit the CLEWs website</a>
+      </p>
   </div>
 </section>
