@@ -36,7 +36,7 @@ Become part of our Discourse community!</h2>
     </div>
   </div> 
 
-  <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto" style="text-align: justify; font-size: 0.875em;">Joining is simple and free! Connect with practitioners, researchers, and policymakers worldwide, and help shape the future of sustainable resource planning. <a href="https://forum.u4ria.org/"><p style="text-align: justify; font-size: 0.875em;"> <strong>Visit the forum</strong></a></p> to sign up and start engaging today! 
+  <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto" style="text-align: justify; font-size: 0.875em;">Joining is simple and free! Connect with practitioners, researchers, and policymakers worldwide, and help shape the future of sustainable resource planning. <a href="https://forum.u4ria.org/"><p style="text-align: justify; font-size: 0.875em;"> <strong>Visit the forum</strong></p></a> to sign up and start engaging today! 
   </p>
 </div>
 <!-- <script>
