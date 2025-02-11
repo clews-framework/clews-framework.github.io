@@ -26,7 +26,7 @@ You can find the source code for Jekyll at GitHub:
   <h3 class="alt-h3 text-float-left mb-3 mt-lg-6" id="more-than-just-code">
     <a href="https://www.open.edu/openlearncreate/course/index.php?categoryid=528">Introduction to CLEWs</a>
   </h3>
-  <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto" style="text-align: justify;">
+  <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto" style="text-align: justify;text-size: 13pt">
     For those starting their journey with CLEWs or seeking foundational knowledge, an open-access course is available online. This course comprises 11 comprehensive lectures that introduce the key concepts of the CLEWs approach, its methodologies, and practical applications. The self-paced format ensures accessibility for individuals worldwide, allowing learners to engage with the material at their convenience.
   </p> 
   <h3 class="alt-h3 text-float-left mb-3 mt-lg-6" id="more-than-just-code">
